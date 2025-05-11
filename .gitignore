@@ -1,0 +1,30 @@
+# Global
+.DS_Store
+node_modules/
+.env
+*.log
+npm-debug.log*
+
+# Backend (Node.js)
+backend/node_modules/
+backend/.env
+backend/dist/
+backend/build/
+backend/coverage/
+backend/.next/           # If using Next.js
+backend/.vercel/
+
+# Frontend (React)
+frontend/node_modules/
+frontend/.env
+frontend/build/
+frontend/.next/          # If using Next.js for frontend
+frontend/coverage/
+frontend/.vercel/
+
+# Optional: OS or editor-specific
+*.swp
+*.swo
+.idea/
+.vscode/
+Thumbs.db
